@@ -2,6 +2,38 @@
 Title = "4peirlyk - PyVLC"
 Fullscreen = true
 
+[Player]
+Volume = 100
+ProgressBar = false
+QrBoxSize = 4
+QrBorderSize = 2
+
+[GPIO]
+[GPIO.5]
+Target = "1"
+
+[GPIO.15]
+Target = "2"
+
+[GPIO.16]
+Target = "3"
+
+[GPIO.14]
+Target = "4"
+
+[GPIO.3]
+Target = "5"
+
+[GPIO.1]
+Target = "6"
+
+[GPIO.8]
+Target = "7"
+
+[GPIO.6]
+Target = "8"
+
+
 [Videos]
 Volume = 60
 
@@ -9,6 +41,34 @@ Volume = 60
 Title = "Idle"
 Source = "file:///Users/marios/Repos/4peirlyk-pyvlc/assets/background.jpg"
 
-[Videos.GPIO1]
-Title = "Never Gonna Give You Up"
-Source = "file:///Users/marios/Repos/4peirlyk-pyvlc/assets/Rick Astley - Never Gonna Give You Up (Official Music Video) [dQw4w9WgXcQ].webm"
+[Videos.1]
+Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/1.mp4"
+Qr = "https://www.youtube.com/watch?v=QQOjd76zTLs"
+
+[Videos.2]
+Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/2.mp4"
+Qr = "https://www.youtube.com/watch?v=JmlAVQBBQL0"
+
+[Videos.3]
+Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/3.mp4"
+Qr = "https://www.youtube.com/watch?v=YSNLmV8jtwM"
+
+[Videos.4]
+Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/4.mp4"
+Qr = "https://www.youtube.com/watch?v=2E1DFY94br0"
+
+[Videos.5]
+Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/5.mp4"
+Qr = "https://www.youtube.com/watch?v=sC7lLpmRSW8"
+
+[Videos.6]
+Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/6.mp4"
+Qr = "https://www.youtube.com/watch?v=lKqEGD9uieE"
+
+[Videos.7]
+Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/7.mp4"
+Qr = "https://www.youtube.com/watch?v=g1AC3T2ta90"
+
+[Videos.8]
+Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/8.mp4"
+Qr = "https://www.youtube.com/watch?v=JgRXloHqn00"
