@@ -9,66 +9,68 @@ QrBoxSize = 4
 QrBorderSize = 2
 
 [GPIO]
-[GPIO.5]
-Target = "1"
 
-[GPIO.15]
-Target = "2"
-
-[GPIO.16]
-Target = "3"
-
-[GPIO.14]
-Target = "4"
-
-[GPIO.3]
+[GPIO.7]
 Target = "5"
 
-[GPIO.1]
-Target = "6"
+[GPIO.26]
+Target = "15"
 
-[GPIO.8]
-Target = "7"
+[GPIO.16]
+Target = "16"
+
+[GPIO.13]
+Target = "14"
 
 [GPIO.6]
+Target = "3"
+
+[GPIO.12]
+Target = "1"
+
+[GPIO.5]
 Target = "8"
+
+[GPIO.19]
+Target = "6"
+
+
+
 
 
 [Videos]
-Volume = 60
-
 [Videos.Idle]
-Title = "Idle"
-Source = "file:///Users/marios/Repos/4peirlyk-pyvlc/assets/background.jpg"
+Source = "file:///home/user/Desktop/4peirlyk-pyvlc/src/assets/IDLE.mp4"
+Qr = "https://4peirlyktrik.gr/"
 
 [Videos.1]
-Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/1.mp4"
-Qr = "https://www.youtube.com/watch?v=QQOjd76zTLs"
-
-[Videos.2]
-Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/2.mp4"
-Qr = "https://www.youtube.com/watch?v=JmlAVQBBQL0"
-
-[Videos.3]
-Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/3.mp4"
-Qr = "https://www.youtube.com/watch?v=YSNLmV8jtwM"
-
-[Videos.4]
-Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/4.mp4"
-Qr = "https://www.youtube.com/watch?v=2E1DFY94br0"
-
-[Videos.5]
-Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/5.mp4"
-Qr = "https://www.youtube.com/watch?v=sC7lLpmRSW8"
-
-[Videos.6]
-Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/6.mp4"
+Source = "file:///home/user/Desktop/4peirlyk-pyvlc/src/assets/1.mp4"
 Qr = "https://www.youtube.com/watch?v=lKqEGD9uieE"
 
-[Videos.7]
-Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/7.mp4"
-Qr = "https://www.youtube.com/watch?v=g1AC3T2ta90"
+[Videos.3]
+Source = "file:///home/user/Desktop/4peirlyk-pyvlc/src/assets/3.mp4"
+Qr = "https://www.youtube.com/watch?v=sC7lLpmRSW8"
+
+[Videos.5]
+Source = "file:///home/user/Desktop/4peirlyk-pyvlc/src/assets/5.mp4"
+Qr = "https://www.youtube.com/watch?v=QQOjd76zTLs"
+
+[Videos.6]
+Source = "file:///home/user/Desktop/4peirlyk-pyvlc/src/assets/6.mp4"
+Qr = "https://www.youtube.com/watch?v=JgRXloHqn00"
 
 [Videos.8]
-Source = "file:///home/marios/Desktop/4peirlyk-pyvlc/src/assets/8.mp4"
-Qr = "https://www.youtube.com/watch?v=JgRXloHqn00"
+Source = "file:///home/user/Desktop/4peirlyk-pyvlc/src/assets/8.mp4"
+Qr = "https://www.youtube.com/watch?v=g1AC3T2ta90"
+
+[Videos.14]
+Source = "file:///home/user/Desktop/4peirlyk-pyvlc/src/assets/14.mp4"
+Qr = "https://www.youtube.com/watch?v=2E1DFY94br0"
+
+[Videos.15]
+Source = "file:///home/user/Desktop/4peirlyk-pyvlc/src/assets/15.mp4"
+Qr = "https://www.youtube.com/watch?v=JmlAVQBBQL0"
+
+[Videos.16]
+Source = "file:///home/user/Desktop/4peirlyk-pyvlc/src/assets/16.mp4"
+Qr = "https://www.youtube.com/watch?v=YSNLmV8jtwM"
